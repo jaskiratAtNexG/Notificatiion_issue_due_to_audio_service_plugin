@@ -30,12 +30,6 @@ void main() {
 Future<void> _messageHandler(RemoteMessage event) async {
   print("FirebaseMessaging recieved ${event.data}");
   print("FirebaseMessaging recieved ${event.notification?.body}");
-  // NotificationService.navigateToScreen(payload: "");
-  // if (event.data.containsKey('wzrk_pn')) {
-  //   //* clevertap push notification
-  //   var data = jsonEncode(event.data);
-  //   await CleverTapPlugin.createNotification(data);
-  // }
 }
 
 // Future<void> startService() async {
@@ -55,8 +49,7 @@ Future<void> _messageHandler(RemoteMessage event) async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
-  // This widget is the root of your application.
+  
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -90,16 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
   getToken() async {
     try {
       String? token =
-          await FirebaseMessaging.instance.getToken(); //use refresh function
-      // String? previousToken = PreferenceUtils.getString('firebaseToken');
-      // Logger().e("token $token");
-
-      // if (token != null && token != previousToken) {
-      //   await PreferenceUtils.setString('firebaseToken', token);
-      //   // ignore: unused_local_variable
-      //   Map<String, dynamic>? result = await User()
-      //       .saveUserDetails(data: {'firebaseToken': token}, context: context);
-      // }
+          await FirebaseMessaging.instance.getToken();
       print(token);
     } catch (_) {}
   }
@@ -168,18 +152,9 @@ class _MyHomePageState extends State<MyHomePage> {
           children: <Widget>[
             DatePickerTxt(),
             ScheduleBtn(),
-            // Text(
-            //   '$_counter',
-            //   style: Theme.of(context).textTheme.headlineMedium,
-            // ),
           ],
         ),
-      ),
-      // floatingActionButton: FloatingActionButton(
-      //   onPressed: _incrementCounter,
-      //   tooltip: 'Increment',
-      //   child: const Icon(Icons.add),
-      // ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),// This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
