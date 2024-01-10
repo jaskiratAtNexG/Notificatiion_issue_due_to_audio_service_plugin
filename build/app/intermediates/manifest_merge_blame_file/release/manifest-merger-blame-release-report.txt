@@ -1,0 +1,444 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.notification_testing"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+11-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:2:5-81
+11-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:2:22-78
+12    <uses-permission android:name="android.permission.VIBRATE" />
+12-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:3:5-66
+12-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:3:22-63
+13    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+13-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:4:5-77
+13-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:4:22-74
+14    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+14-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:5:5-77
+14-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:5:22-74
+15    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+15-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:6:5-79
+15-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:6:22-76
+16    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+16-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:7:5-74
+16-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:7:22-71
+17    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+17-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:8:5-81
+17-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:8:22-78
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+18-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:9:22-64
+19    <uses-permission android:name="android.permission.WAKE_LOCK" />
+19-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-68
+19-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-65
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+20-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:5-79
+20-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:11:22-76
+21    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+21-->[com.google.firebase:firebase-iid:21.1.0] /Users/nexg/.gradle/caches/transforms-3/ddf15f11ea4f36b4ca4f6da64e8da3f9/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:5-82
+21-->[com.google.firebase:firebase-iid:21.1.0] /Users/nexg/.gradle/caches/transforms-3/ddf15f11ea4f36b4ca4f6da64e8da3f9/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:26:22-79
+22
+23    <queries>
+23-->[androidx.media2:media2-session:1.2.1] /Users/nexg/.gradle/caches/transforms-3/82b3920d29238468cf493e3db2cf8407/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:24:5-34:15
+24        <intent>
+24-->[androidx.media2:media2-session:1.2.1] /Users/nexg/.gradle/caches/transforms-3/82b3920d29238468cf493e3db2cf8407/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:25:9-27:18
+25            <action android:name="android.media.browse.MediaBrowserService" />
+25-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:48:17-83
+25-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:48:25-80
+26        </intent>
+27        <intent>
+27-->[androidx.media2:media2-session:1.2.1] /Users/nexg/.gradle/caches/transforms-3/82b3920d29238468cf493e3db2cf8407/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:28:9-30:18
+28            <action android:name="androidx.media2.session.MediaSessionService" />
+28-->[androidx.media2:media2-session:1.2.1] /Users/nexg/.gradle/caches/transforms-3/82b3920d29238468cf493e3db2cf8407/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:13-82
+28-->[androidx.media2:media2-session:1.2.1] /Users/nexg/.gradle/caches/transforms-3/82b3920d29238468cf493e3db2cf8407/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:29:21-79
+29        </intent>
+30        <intent>
+30-->[androidx.media2:media2-session:1.2.1] /Users/nexg/.gradle/caches/transforms-3/82b3920d29238468cf493e3db2cf8407/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:31:9-33:18
+31            <action android:name="androidx.media2.session.MediaLibraryService" />
+31-->[androidx.media2:media2-session:1.2.1] /Users/nexg/.gradle/caches/transforms-3/82b3920d29238468cf493e3db2cf8407/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:13-82
+31-->[androidx.media2:media2-session:1.2.1] /Users/nexg/.gradle/caches/transforms-3/82b3920d29238468cf493e3db2cf8407/transformed/jetified-media2-session-1.2.1/AndroidManifest.xml:32:21-79
+32        </intent>
+33    </queries>
+34
+35    <application
+36        android:name="android.app.Application"
+36-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:11:9-42
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.7.0] /Users/nexg/.gradle/caches/transforms-3/4ce45a1bb214708cc6766ef36cf04ff9/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+38        android:icon="@mipmap/ic_launcher"
+38-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:12:9-43
+39        android:label="notification_testing" >
+39-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:10:9-45
+40        <activity
+40-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:13:9-35:20
+41            android:name="com.example.notification_testing.MainActivity"
+41-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:14:13-41
+42            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+42-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:18:13-163
+43            android:exported="true"
+43-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:15:13-36
+44            android:hardwareAccelerated="true"
+44-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:19:13-47
+45            android:launchMode="singleTop"
+45-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:16:13-43
+46            android:showWhenLocked="true"
+46-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:20:13-42
+47            android:theme="@style/LaunchTheme"
+47-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:17:13-47
+48            android:turnScreenOn="true"
+48-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:21:13-40
+49            android:windowSoftInputMode="adjustResize" >
+49-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:22:13-55
+50
+51            <!--
+52                 Specifies an Android theme to apply to this Activity as soon as
+53                 the Android process has started. This theme is visible to the user
+54                 while the Flutter UI initializes. After that, this theme continues
+55                 to determine the Window background behind the Flutter UI.
+56            -->
+57            <meta-data
+57-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:27:13-30:15
+58                android:name="io.flutter.embedding.android.NormalTheme"
+58-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:28:17-72
+59                android:resource="@style/NormalTheme" />
+59-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:29:17-54
+60
+61            <intent-filter>
+61-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:31:13-34:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:32:17-69
+62-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:32:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:33:17-77
+64-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:33:27-74
+65            </intent-filter>
+66        </activity>
+67        <!--
+68             Don't delete the meta-data below.
+69             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+70        -->
+71        <meta-data
+71-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:38:9-40:33
+72            android:name="flutterEmbedding"
+72-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:39:13-44
+73            android:value="2" />
+73-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:40:13-30
+74
+75        <!-- FOR AUDIO SERVICE PLUGIN STARTS -->
+76        <service
+76-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:43:9-50:19
+77            android:name="com.ryanheise.audioservice.AudioService"
+77-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:43:18-72
+78            android:exported="true"
+78-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:45:13-36
+79            android:foregroundServiceType="mediaPlayback" >
+79-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:44:13-58
+80            <intent-filter>
+80-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:47:13-49:29
+81                <action android:name="android.media.browse.MediaBrowserService" />
+81-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:48:17-83
+81-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:48:25-80
+82            </intent-filter>
+83        </service>
+84
+85        <receiver
+85-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:51:9-57:20
+86            android:name="com.ryanheise.audioservice.MediaButtonReceiver"
+86-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:51:19-80
+87            android:exported="true" >
+87-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:52:13-36
+88            <intent-filter>
+88-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:54:13-56:29
+89                <action android:name="android.intent.action.MEDIA_BUTTON" />
+89-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:55:17-77
+89-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:55:25-74
+90            </intent-filter>
+91        </receiver>
+92        <!-- FOR AUDIO SERVICE PLUGIN ENDS -->
+93
+94        <service
+94-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:60:9-63:44
+95            android:name="com.dexterous.flutterlocalnotifications.ForegroundService"
+95-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:61:13-85
+96            android:exported="false"
+96-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:62:13-37
+97            android:stopWithTask="false" />
+97-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:63:13-41
+98
+99        <receiver
+99-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:64:9-65:94
+100            android:name="com.dexterous.flutterlocalnotifications.ActionBroadcastReceiver"
+100-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:65:13-91
+101            android:exported="false" />
+101-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:64:19-43
+102        <receiver
+102-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:66:9-67:100
+103            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+103-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:67:13-97
+104            android:exported="false" />
+104-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:66:19-43
+105        <receiver
+105-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:68:9-76:20
+106            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+106-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:69:13-101
+107            android:exported="false" >
+107-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:68:19-43
+108            <intent-filter>
+108-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:70:13-75:29
+109                <action android:name="android.intent.action.BOOT_COMPLETED" />
+109-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:71:17-79
+109-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:71:25-76
+110                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+110-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:72:17-84
+110-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:72:25-81
+111                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+111-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:73:17-82
+111-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:73:25-79
+112                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+112-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:74:17-82
+112-->/Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/android/app/src/main/AndroidManifest.xml:74:25-79
+113            </intent-filter>
+114        </receiver>
+115
+116        <service
+116-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:16:9-19:72
+117            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+117-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:17:13-107
+118            android:exported="false"
+118-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:18:13-37
+119            android:permission="android.permission.BIND_JOB_SERVICE" />
+119-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-69
+120        <service
+120-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:20:9-26:19
+121            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+121-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-97
+122            android:exported="false" >
+122-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-37
+123            <intent-filter>
+123-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+124                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+124-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+124-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+125            </intent-filter>
+126        </service>
+127
+128        <receiver
+128-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-35:20
+129            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+129-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-98
+130            android:exported="true"
+130-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-36
+131            android:permission="com.google.android.c2dm.permission.SEND" >
+131-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:31:13-73
+132            <intent-filter>
+132-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+133                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+133-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+133-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+134            </intent-filter>
+135        </receiver>
+136
+137        <service
+137-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:9-41:19
+138            android:name="com.google.firebase.components.ComponentDiscoveryService"
+138-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:37:18-89
+139            android:directBootAware="true"
+139-->[com.google.firebase:firebase-common:20.4.2] /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+140            android:exported="false" >
+140-->[com.google.firebase:firebase-iid:21.1.0] /Users/nexg/.gradle/caches/transforms-3/ddf15f11ea4f36b4ca4f6da64e8da3f9/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:31:13-37
+141            <meta-data
+141-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-40:85
+142                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+142-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:39:17-128
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:40:17-82
+144            <meta-data
+144-->[:firebase_core] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-13:85
+145                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+145-->[:firebase_core] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:12:17-124
+146                android:value="com.google.firebase.components.ComponentRegistrar" />
+146-->[:firebase_core] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_core/intermediates/merged_manifest/release/AndroidManifest.xml:13:17-82
+147            <meta-data
+147-->[com.google.firebase:firebase-iid:21.1.0] /Users/nexg/.gradle/caches/transforms-3/ddf15f11ea4f36b4ca4f6da64e8da3f9/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:32:13-34:85
+148                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+148-->[com.google.firebase:firebase-iid:21.1.0] /Users/nexg/.gradle/caches/transforms-3/ddf15f11ea4f36b4ca4f6da64e8da3f9/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:33:17-96
+149                android:value="com.google.firebase.components.ComponentRegistrar" />
+149-->[com.google.firebase:firebase-iid:21.1.0] /Users/nexg/.gradle/caches/transforms-3/ddf15f11ea4f36b4ca4f6da64e8da3f9/transformed/jetified-firebase-iid-21.1.0/AndroidManifest.xml:34:17-82
+150            <meta-data
+150-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:57:13-59:85
+151                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+151-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:58:17-122
+152                android:value="com.google.firebase.components.ComponentRegistrar" />
+152-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:59:17-82
+153            <meta-data
+153-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:60:13-62:85
+154                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+154-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:61:17-119
+155                android:value="com.google.firebase.components.ComponentRegistrar" />
+155-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:62:17-82
+156            <meta-data
+156-->[com.google.firebase:firebase-installations:17.2.0] /Users/nexg/.gradle/caches/transforms-3/55c3c59c9725249c452a81653b4286f1/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+157                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+157-->[com.google.firebase:firebase-installations:17.2.0] /Users/nexg/.gradle/caches/transforms-3/55c3c59c9725249c452a81653b4286f1/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+158                android:value="com.google.firebase.components.ComponentRegistrar" />
+158-->[com.google.firebase:firebase-installations:17.2.0] /Users/nexg/.gradle/caches/transforms-3/55c3c59c9725249c452a81653b4286f1/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+159            <meta-data
+159-->[com.google.firebase:firebase-installations:17.2.0] /Users/nexg/.gradle/caches/transforms-3/55c3c59c9725249c452a81653b4286f1/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+160                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+160-->[com.google.firebase:firebase-installations:17.2.0] /Users/nexg/.gradle/caches/transforms-3/55c3c59c9725249c452a81653b4286f1/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-installations:17.2.0] /Users/nexg/.gradle/caches/transforms-3/55c3c59c9725249c452a81653b4286f1/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/nexg/.gradle/caches/transforms-3/3239dd8574a52ef41c4189269dbcf2e9/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+163                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+163-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/nexg/.gradle/caches/transforms-3/3239dd8574a52ef41c4189269dbcf2e9/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/nexg/.gradle/caches/transforms-3/3239dd8574a52ef41c4189269dbcf2e9/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-common:20.4.2] /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+166                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+166-->[com.google.firebase:firebase-common:20.4.2] /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-common:20.4.2] /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/nexg/.gradle/caches/transforms-3/179710e4cd610de0114e9f4470526d4f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+169                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+169-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/nexg/.gradle/caches/transforms-3/179710e4cd610de0114e9f4470526d4f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/nexg/.gradle/caches/transforms-3/179710e4cd610de0114e9f4470526d4f/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+171        </service>
+172
+173        <provider
+173-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:43:9-47:38
+174            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+174-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:44:13-102
+175            android:authorities="com.example.notification_testing.flutterfirebasemessaginginitprovider"
+175-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:45:13-88
+176            android:exported="false"
+176-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:46:13-37
+177            android:initOrder="99" />
+177-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:47:13-35
+178
+179        <receiver
+179-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:29:9-40:20
+180            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+180-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:30:13-78
+181            android:exported="true"
+181-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:31:13-36
+182            android:permission="com.google.android.c2dm.permission.SEND" >
+182-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:32:13-73
+183            <intent-filter>
+183-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:32:13-34:29
+184                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+184-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:17-81
+184-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:33:25-78
+185            </intent-filter>
+186
+187            <meta-data
+187-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:37:13-39:40
+188                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+188-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:38:17-92
+189                android:value="true" />
+189-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:39:17-37
+190        </receiver>
+191        <!--
+192             FirebaseMessagingService performs security checks at runtime,
+193             but set to not exported to explicitly avoid allowing another app to call it.
+194        -->
+195        <service
+195-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:46:9-53:19
+196            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+196-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:47:13-82
+197            android:directBootAware="true"
+197-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:48:13-43
+198            android:exported="false" >
+198-->[com.google.firebase:firebase-messaging:23.4.0] /Users/nexg/.gradle/caches/transforms-3/30c16788b69c8edbb1db03dd29b8512e/transformed/jetified-firebase-messaging-23.4.0/AndroidManifest.xml:49:13-37
+199            <intent-filter android:priority="-500" >
+199-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:29
+200                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+200-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-78
+200-->[:firebase_messaging] /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_messaging/intermediates/merged_manifest/release/AndroidManifest.xml:24:25-75
+201            </intent-filter>
+202        </service>
+203
+204        <provider
+204-->[com.google.firebase:firebase-common:20.4.2] /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+205            android:name="com.google.firebase.provider.FirebaseInitProvider"
+205-->[com.google.firebase:firebase-common:20.4.2] /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+206            android:authorities="com.example.notification_testing.firebaseinitprovider"
+206-->[com.google.firebase:firebase-common:20.4.2] /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+207            android:directBootAware="true"
+207-->[com.google.firebase:firebase-common:20.4.2] /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+208            android:exported="false"
+208-->[com.google.firebase:firebase-common:20.4.2] /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+209            android:initOrder="100" />
+209-->[com.google.firebase:firebase-common:20.4.2] /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+210
+211        <uses-library
+211-->[androidx.window:window:1.0.0] /Users/nexg/.gradle/caches/transforms-3/6ca4a16128acfd0db09584b7bb2a114c/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+212            android:name="androidx.window.extensions"
+212-->[androidx.window:window:1.0.0] /Users/nexg/.gradle/caches/transforms-3/6ca4a16128acfd0db09584b7bb2a114c/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+213            android:required="false" />
+213-->[androidx.window:window:1.0.0] /Users/nexg/.gradle/caches/transforms-3/6ca4a16128acfd0db09584b7bb2a114c/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+214        <uses-library
+214-->[androidx.window:window:1.0.0] /Users/nexg/.gradle/caches/transforms-3/6ca4a16128acfd0db09584b7bb2a114c/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+215            android:name="androidx.window.sidecar"
+215-->[androidx.window:window:1.0.0] /Users/nexg/.gradle/caches/transforms-3/6ca4a16128acfd0db09584b7bb2a114c/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+216            android:required="false" />
+216-->[androidx.window:window:1.0.0] /Users/nexg/.gradle/caches/transforms-3/6ca4a16128acfd0db09584b7bb2a114c/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+217
+218        <service
+218-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a91e648d30de2f5c9791980a8d306808/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+219            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+219-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a91e648d30de2f5c9791980a8d306808/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+220            android:exported="false" >
+220-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a91e648d30de2f5c9791980a8d306808/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+221            <meta-data
+221-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a91e648d30de2f5c9791980a8d306808/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+222                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+222-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a91e648d30de2f5c9791980a8d306808/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+223                android:value="cct" />
+223-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a91e648d30de2f5c9791980a8d306808/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+224        </service>
+225        <service
+225-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a072acdb0cb6e8eacff4e6be3f52a8a9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+226            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+226-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a072acdb0cb6e8eacff4e6be3f52a8a9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+227            android:exported="false"
+227-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a072acdb0cb6e8eacff4e6be3f52a8a9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+228            android:permission="android.permission.BIND_JOB_SERVICE" >
+228-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a072acdb0cb6e8eacff4e6be3f52a8a9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+229        </service>
+230
+231        <receiver
+231-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a072acdb0cb6e8eacff4e6be3f52a8a9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+232            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+232-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a072acdb0cb6e8eacff4e6be3f52a8a9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+233            android:exported="false" />
+233-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/nexg/.gradle/caches/transforms-3/a072acdb0cb6e8eacff4e6be3f52a8a9/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+234
+235        <activity
+235-->[com.google.android.gms:play-services-base:18.0.1] /Users/nexg/.gradle/caches/transforms-3/f15ab3fdd07cf91c2a4c126879a717ad/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+236            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+236-->[com.google.android.gms:play-services-base:18.0.1] /Users/nexg/.gradle/caches/transforms-3/f15ab3fdd07cf91c2a4c126879a717ad/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+237            android:exported="false"
+237-->[com.google.android.gms:play-services-base:18.0.1] /Users/nexg/.gradle/caches/transforms-3/f15ab3fdd07cf91c2a4c126879a717ad/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+238            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+238-->[com.google.android.gms:play-services-base:18.0.1] /Users/nexg/.gradle/caches/transforms-3/f15ab3fdd07cf91c2a4c126879a717ad/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+239
+240        <meta-data
+240-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nexg/.gradle/caches/transforms-3/6922bfcd3bfb2117b665c0b9a80cc81b/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+241            android:name="com.google.android.gms.version"
+241-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nexg/.gradle/caches/transforms-3/6922bfcd3bfb2117b665c0b9a80cc81b/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+242            android:value="@integer/google_play_services_version" />
+242-->[com.google.android.gms:play-services-basement:18.1.0] /Users/nexg/.gradle/caches/transforms-3/6922bfcd3bfb2117b665c0b9a80cc81b/transformed/jetified-play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+243    </application>
+244
+245</manifest>

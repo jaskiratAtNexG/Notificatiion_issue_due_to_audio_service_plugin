@@ -1,0 +1,14 @@
+io.flutter.plugins.firebase.core.firebase_core-jetified-annotation-experimental-1.1.0-0 /Users/nexg/.gradle/caches/transforms-3/0e8b83e716fe2fae0590054dbadd4897/transformed/jetified-annotation-experimental-1.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-core-1.6.0-1 /Users/nexg/.gradle/caches/transforms-3/190e27d873b515db1f45b262b8036f57/transformed/core-1.6.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-play-services-basement-18.1.0-2 /Users/nexg/.gradle/caches/transforms-3/6922bfcd3bfb2117b665c0b9a80cc81b/transformed/jetified-play-services-basement-18.1.0/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-java-1.0.0-beta04-3 /Users/nexg/.gradle/caches/transforms-3/710dd7fe7bb6a0ade5548073d18f78e2/transformed/jetified-window-java-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-firebase-common-20.4.2-4 /Users/nexg/.gradle/caches/transforms-3/c78fe182fb6f8b0776decd4e892d29ad/transformed/jetified-firebase-common-20.4.2/res
+io.flutter.plugins.firebase.core.firebase_core-jetified-window-1.0.0-beta04-5 /Users/nexg/.gradle/caches/transforms-3/e633c678d391ea86a123f60ab0fa21d3/transformed/jetified-window-1.0.0-beta04/res
+io.flutter.plugins.firebase.core.firebase_core-main-6 /Users/nexg/.pub-cache/hosted/pub.dev/firebase_core-2.24.2/android/src/main/res
+io.flutter.plugins.firebase.core.firebase_core-release-7 /Users/nexg/.pub-cache/hosted/pub.dev/firebase_core-2.24.2/android/src/release/res
+io.flutter.plugins.firebase.core.firebase_core-pngs-8 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_core/generated/res/pngs/release
+io.flutter.plugins.firebase.core.firebase_core-resValues-9 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_core/generated/res/resValues/release
+io.flutter.plugins.firebase.core.firebase_core-rs-10 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_core/generated/res/rs/release
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-11 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/merged.dir
+io.flutter.plugins.firebase.core.firebase_core-mergeReleaseResources-12 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_core/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+io.flutter.plugins.firebase.core.firebase_core-merged_res-13 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/firebase_core/intermediates/merged_res/release

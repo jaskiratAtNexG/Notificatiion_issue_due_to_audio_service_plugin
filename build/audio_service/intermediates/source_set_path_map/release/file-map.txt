@@ -1,0 +1,16 @@
+com.ryanheise.audioservice.audio_service-jetified-annotation-experimental-1.1.0-0 /Users/nexg/.gradle/caches/transforms-3/0e8b83e716fe2fae0590054dbadd4897/transformed/jetified-annotation-experimental-1.1.0/res
+com.ryanheise.audioservice.audio_service-core-1.6.0-1 /Users/nexg/.gradle/caches/transforms-3/190e27d873b515db1f45b262b8036f57/transformed/core-1.6.0/res
+com.ryanheise.audioservice.audio_service-media-1.6.0-2 /Users/nexg/.gradle/caches/transforms-3/30e35a3cb6bd14eb79460513cffa7b84/transformed/media-1.6.0/res
+com.ryanheise.audioservice.audio_service-jetified-media2-common-1.2.1-3 /Users/nexg/.gradle/caches/transforms-3/6ed49bc71ecea47d33fbb1a5de51c580/transformed/jetified-media2-common-1.2.1/res
+com.ryanheise.audioservice.audio_service-jetified-window-java-1.0.0-beta04-4 /Users/nexg/.gradle/caches/transforms-3/710dd7fe7bb6a0ade5548073d18f78e2/transformed/jetified-window-java-1.0.0-beta04/res
+com.ryanheise.audioservice.audio_service-jetified-media2-session-1.2.1-5 /Users/nexg/.gradle/caches/transforms-3/82b3920d29238468cf493e3db2cf8407/transformed/jetified-media2-session-1.2.1/res
+com.ryanheise.audioservice.audio_service-jetified-window-1.0.0-beta04-6 /Users/nexg/.gradle/caches/transforms-3/e633c678d391ea86a123f60ab0fa21d3/transformed/jetified-window-1.0.0-beta04/res
+com.ryanheise.audioservice.audio_service-main-7 /Users/nexg/.pub-cache/git/audio_service-ea715f082e678572b9d365e61d7ba206d66fbffd/audio_service/android/src/main/res
+com.ryanheise.audioservice.audio_service-release-8 /Users/nexg/.pub-cache/git/audio_service-ea715f082e678572b9d365e61d7ba206d66fbffd/audio_service/android/src/release/res
+com.ryanheise.audioservice.audio_service-pngs-9 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/audio_service/generated/res/pngs/release
+com.ryanheise.audioservice.audio_service-resValues-10 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/audio_service/generated/res/resValues/release
+com.ryanheise.audioservice.audio_service-rs-11 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/audio_service/generated/res/rs/release
+com.ryanheise.audioservice.audio_service-mergeReleaseResources-12 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/audio_service/intermediates/incremental/release/mergeReleaseResources/merged.dir
+com.ryanheise.audioservice.audio_service-mergeReleaseResources-13 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/audio_service/intermediates/incremental/release/mergeReleaseResources/stripped.dir
+com.ryanheise.audioservice.audio_service-merged_res-14 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/audio_service/intermediates/merged_res/release
+com.ryanheise.audioservice.audio_service-packaged_res-15 /Users/nexg/flutter_projects/Notificatiion_issue_due_to_audio_service_plugin/build/audio_session/intermediates/packaged_res/release

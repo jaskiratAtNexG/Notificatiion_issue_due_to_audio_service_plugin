@@ -1,7 +1,18 @@
 # This is a generated file; do not edit or check into version control.
+audio_service=/Users/nexg/.pub-cache/git/audio_service-ea715f082e678572b9d365e61d7ba206d66fbffd/audio_service/
+audio_service_web=/Users/nexg/.pub-cache/hosted/pub.dev/audio_service_web-0.1.1/
+audio_session=/Users/nexg/.pub-cache/hosted/pub.dev/audio_session-0.1.18/
 firebase_core=/Users/nexg/.pub-cache/hosted/pub.dev/firebase_core-2.24.2/
 firebase_core_web=/Users/nexg/.pub-cache/hosted/pub.dev/firebase_core_web-2.10.0/
 firebase_messaging=/Users/nexg/.pub-cache/hosted/pub.dev/firebase_messaging-14.7.9/
 firebase_messaging_web=/Users/nexg/.pub-cache/hosted/pub.dev/firebase_messaging_web-3.5.18/
 flutter_local_notifications=/Users/nexg/.pub-cache/hosted/pub.dev/flutter_local_notifications-16.3.0/
 flutter_timezone=/Users/nexg/.pub-cache/hosted/pub.dev/flutter_timezone-1.0.8/
+just_audio=/Users/nexg/.pub-cache/hosted/pub.dev/just_audio-0.9.36/
+just_audio_web=/Users/nexg/.pub-cache/hosted/pub.dev/just_audio_web-0.4.9/
+path_provider=/Users/nexg/.pub-cache/hosted/pub.dev/path_provider-2.1.2/
+path_provider_android=/Users/nexg/.pub-cache/hosted/pub.dev/path_provider_android-2.2.2/
+path_provider_foundation=/Users/nexg/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/
+path_provider_linux=/Users/nexg/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+path_provider_windows=/Users/nexg/.pub-cache/hosted/pub.dev/path_provider_windows-2.2.1/
+sqflite=/Users/nexg/.pub-cache/hosted/pub.dev/sqflite-2.3.0/

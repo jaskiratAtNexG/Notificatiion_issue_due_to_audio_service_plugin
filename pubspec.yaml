@@ -19,9 +19,13 @@ dependencies:
   flutter_timezone: ^1.0.8
   timezone: ^0.9.2
   flutter_datetime_picker_plus: ^2.1.0
-  # audio_service: ^0.18.12
-  # just_audio: ^0.9.36
-  # audio_session: ^0.1.18
+  audio_service: 
+    git:
+      url: https://github.com/jaskiratAtNexG/audio_service.git
+      ref: minor
+      path: audio_service
+  just_audio: ^0.9.36
+  audio_session: ^0.1.18
 
 dev_dependencies:
   flutter_test:

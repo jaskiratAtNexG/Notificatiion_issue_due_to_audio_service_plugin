@@ -1,7 +1,7 @@
 import 'dart:async';
 import 'dart:convert';
 
-// import 'package:audio_service/audio_service.dart';
+import 'package:audio_service/audio_service.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
@@ -12,7 +12,7 @@ import 'package:notification_testing/notification_service.dart';
 import 'package:notification_testing/print_payload_received.dart';
 
 final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
-// late AudioPlayerHandler audioHandler;
+late AudioPlayerHandler audioHandler;
 
 void main() {
   runZonedGuarded<Future<void>>(() async {
@@ -20,7 +20,7 @@ void main() {
     await Firebase.initializeApp();
     NotificationService.configureLocalTimeZone();
     await NotificationService.init();
-    // await startService();
+    await startService();
 
     runApp(const MyApp());
   }, (error, stack) => print(error));
@@ -32,20 +32,20 @@ Future<void> _messageHandler(RemoteMessage event) async {
   print("FirebaseMessaging recieved ${event.notification?.body}");
 }
 
-// Future<void> startService() async {
-//   audioHandler = await AudioService.init(
-//     builder: () => AudioPlayerHandlerImpl(),
-//     config: const AudioServiceConfig(
-//       androidNotificationChannelId: 'com.nispand.com',
-//       androidNotificationChannelName: 'Nispand Audio',
-//       androidStopForegroundOnPause: true,
-//       // androidNotificationOngoing: true,
-//       androidNotificationIcon: 'mipmap/ic_launcher',
-//       androidShowNotificationBadge: true,
-//       // notificationColor: Colors.grey[900],
-//     ),
-//   );
-// }
+Future<void> startService() async {
+  audioHandler = await AudioService.init(
+    builder: () => AudioPlayerHandlerImpl(),
+    config: const AudioServiceConfig(
+      androidNotificationChannelId: 'com.nispand.com',
+      androidNotificationChannelName: 'Nispand Audio',
+      androidStopForegroundOnPause: true,
+      // androidNotificationOngoing: true,
+      androidNotificationIcon: 'mipmap/ic_launcher',
+      androidShowNotificationBadge: true,
+      // notificationColor: Colors.grey[900],
+    ),
+  );
+}
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
